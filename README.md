@@ -1,10 +1,10 @@
 # FLO CLTV Prediction Interview Case
 
-# Business Problem
+## Business Problem
 FLO wants to set a roadmap for sales and marketing activities.
 In order for the company to make a medium-long-term plan, it is necessary to estimate the potential value that existing customers will provide to the company in the future.
 
-# Dataset Story
+## Dataset Story
 The dataset is based on the past shopping behavior of customers who made their last purchases from OmniChannel (both online and offline) in 2020 - 2021 consists of the information obtained.
 
 - master_id: Unique client number
@@ -22,13 +22,13 @@ The dataset is based on the past shopping behavior of customers who made their l
 
 
 
-# TASKS
+## TASKS
 
 - TASK 1: Preparing the Data
-           1. Read the data flo_data_20K.csv. Make a copy of the dataframe.
-           2. Define the outlier_thresholds and replace_with_thresholds functions needed to suppress outliers.
-           Note: When calculating cltv, frequency values ​​must be integers. Therefore, round the lower and upper limits with round().
-           3. Set the variables "order_num_total_ever_online","order_num_total_ever_offline","customer_value_total_ever_offline","customer_value_total_ever_online"  suppress outliers if any.
+           - 1. Read the data flo_data_20K.csv. Make a copy of the dataframe.
+           - 2. Define the outlier_thresholds and replace_with_thresholds functions needed to suppress outliers.
+           - Note: When calculating cltv, frequency values ​​must be integers. Therefore, round the lower and upper limits with round().
+           - 3. Set the variables "order_num_total_ever_online","order_num_total_ever_offline","customer_value_total_ever_offline","customer_value_total_ever_online"  suppress outliers if any.
            4. Omnichannel means that customers shop from both online and offline platforms. Total for each customer create new variables for number of purchases and spend.
            5. Examine the variable types. Change the type of variables that express date to date.
 
