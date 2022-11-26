@@ -7,8 +7,8 @@ In order for the company to make a medium-long-term plan, it is necessary to est
 # Dataset Story
 The dataset is based on the past shopping behavior of customers who made their last purchases from OmniChannel (both online and offline) in 2020 - 2021 consists of the information obtained.
 
-# master_id: Unique client number
-# order_channel : Which channel of the shopping platform is used (Android, ios, Desktop, Mobile, Offline)
+-master_id: Unique client number
+- order_channel : Which channel of the shopping platform is used (Android, ios, Desktop, Mobile, Offline)
 # last_order_channel : The channel where the last purchase was made
 # first_order_date : The date of the customer's first purchase
 # last_order_date : The date of the last purchase made by the customer
