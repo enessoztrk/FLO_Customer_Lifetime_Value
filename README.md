@@ -51,5 +51,5 @@ BG/NBD, Establishing Gamma-Gamma Models, Calculating CLTV
 
 ### TASK 4: 
 Creating Segments by CLTV
-- 1. Divide all your 6-month customers into 4 groups (segments) and add the group names to the dataset. Add it to the dataframe with the name cltv_segment.
-- 2. Make short 6-month action suggestions to the management for 2 groups you will choose from among 4 groups.
+- Divide all your 6-month customers into 4 groups (segments) and add the group names to the dataset. Add it to the dataframe with the name cltv_segment.
+- Make short 6-month action suggestions to the management for 2 groups you will choose from among 4 groups.
