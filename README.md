@@ -24,18 +24,20 @@ The dataset is based on the past shopping behavior of customers who made their l
 
 ## TASKS
 
-- TASK 1: Preparing the Data
-           - 1. Read the data flo_data_20K.csv. Make a copy of the dataframe.
-           - 2. Define the outlier_thresholds and replace_with_thresholds functions needed to suppress outliers.
-           - Note: When calculating cltv, frequency values ​​must be integers. Therefore, round the lower and upper limits with round().
-           - 3. Set the variables "order_num_total_ever_online","order_num_total_ever_offline","customer_value_total_ever_offline","customer_value_total_ever_online"  suppress outliers if any.
-           4. Omnichannel means that customers shop from both online and offline platforms. Total for each customer create new variables for number of purchases and spend.
-           5. Examine the variable types. Change the type of variables that express date to date.
+- TASK 1: 
+- Preparing the Data
+- 1. Read the data flo_data_20K.csv. Make a copy of the dataframe.
+- 2. Define the outlier_thresholds and replace_with_thresholds functions needed to suppress outliers.
+- Note: When calculating cltv, frequency values ​​must be integers. Therefore, round the lower and upper limits with round().
+- 3. Set the variables "order_num_total_ever_online","order_num_total_ever_offline","customer_value_total_ever_offline","customer_value_total_ever_online"  suppress outliers if any.
+- 4. Omnichannel means that customers shop from both online and offline platforms. Total for each customer create new variables for number of purchases and spend.
+- 5. Examine the variable types. Change the type of variables that express date to date.
 
-- TASK 2: Creating CLTV Data Structure
-           # 1. Take 2 days after the date of the last purchase in the data set as the date of analysis.
-           # Create a new cltv dataframe with the values ​​2.customer_id, recency_cltv_weekly, T_weekly, frequency and monetary_cltv_avg.
-           # Monetary value will be expressed as average value per purchase, recency and tenure values ​​will be expressed in weekly terms.
+- TASK 2: 
+- Creating CLTV Data Structure
+- 1. Take 2 days after the date of the last purchase in the data set as the date of analysis.
+- Create a new cltv dataframe with the values ​​2.customer_id, recency_cltv_weekly, T_weekly, frequency and monetary_cltv_avg.
+- Monetary value will be expressed as average value per purchase, recency and tenure values ​​will be expressed in weekly terms.
 
 
 - TASK 3: BG/NBD, Establishing Gamma-Gamma Models, Calculating CLTV
