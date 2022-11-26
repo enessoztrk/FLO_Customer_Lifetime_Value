@@ -45,8 +45,8 @@ BG/NBD, Establishing Gamma-Gamma Models, Calculating CLTV
 - Fit the BG/NBD model.
 - a. Estimate expected purchases from customers in 3 months and add exp_sales_3_month to cltv dataframe.
 - b. Estimate expected purchases from customers in 6 months and add exp_sales_6_month to cltv dataframe.
-- 2. Fit the Gamma-Gamma model. Estimate the average value of the customers and add it to the cltv dataframe as exp_average_value.
-- 3. Calculate 6 months CLTV and add it to the dataframe with the name cltv.
+- Fit the Gamma-Gamma model. Estimate the average value of the customers and add it to the cltv dataframe as exp_average_value.
+- Calculate 6 months CLTV and add it to the dataframe with the name cltv.
 - a. Observe the 20 people with the highest Cltv value.
 
 ### TASK 4: 
