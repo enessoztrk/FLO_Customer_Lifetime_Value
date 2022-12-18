@@ -1,4 +1,4 @@
-# FLO CLTV Prediction Interview Case
+# FLO Customer Lifetime Value(CLTV)
 
 ## Business Problem
 FLO wants to set a roadmap for sales and marketing activities.
